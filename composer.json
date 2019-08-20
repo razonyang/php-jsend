@@ -1,0 +1,29 @@
+{
+    "name": "razonyang/jsend",
+    "description": "JSend port for PHP",
+    "type": "library",
+    "keywords": ["jsend", "restful-api", "rest-api"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Razon Yang",
+            "email": "razonyang@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7"
+    },
+    "autoload": {
+        "psr-4": {
+            "RazonYang\\JSend\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "RazonYang\\JSend\\Tests\\": "tests"
+        }
+    }
+}
